@@ -15,10 +15,7 @@
 </head>
 
 <body>
-
-
    <div class="wrapper">
-
       <header class="header">
          <div class="container">
             <div class="btn-up">&uarr;</div>
@@ -37,7 +34,7 @@
                <ul class="social-list">
                   <li class="social__item">
                      <a class="social__link" href="#">
-<!--                         <img class="social__img" src="images/icons/social-twitter.svg" alt="twitter"> -->
+                        <img class="social__img" src="images/icons/social-google.svg" alt="google">
                      </a>
                   </li>
                   <li class="social__item">
@@ -47,7 +44,7 @@
                   </li>
                   <li class="social__item">
                      <a class="social__link" href="#">
-<!--                         <img class="social__img" src="images/icons/social-facebook.svg" alt="facebook"> -->
+                        <img class="social__img" src="images/icons/social-google.svg" alt="google">
                      </a>
                   </li>
                </ul>
@@ -98,38 +95,29 @@
             </p>
          </div>
       </header>
-
-
       <main class="main">
-
-
          <div class="costum-slider">
             <div class="slider slider-img slider-img1">
-               <span class="icon-menu-box--one"> <span> </span>
-                  <h3>SLIDE 1</h3>
+               <span class="icon-menu-box--one"></span>
+               <h3>SLIDE 1</h3>
             </div>
             <div class="slider slider-img slider-img2">
-               <span class="icon-menu-box--two"> <span> </span>
-                  <h3>SLIDE 2</h3>
+               <span class="icon-menu-box--two"></span>
+               <h3>SLIDE 2</h3>
             </div>
             <div class="slider slider-img slider-img3   slider--active">
-               <span class="icon-menu-box--three"> <span> </span>
-                  <h3>SLIDE 3</h3>
-                  </button>
-               </span>
+               <span class="icon-menu-box--three"> </span>
+               <h3>SLIDE 3</h3>
             </div>
             <div class="slider slider-img slider-img4 ">
-               <span class="icon-menu-box--for"> <span> </span>
-                  <h3>SLIDE 4</h3>
+               <span class="icon-menu-box--for"> </span>
+               <h3>SLIDE 4</h3>
             </div>
             <div class="slider slider-img slider-img5">
-               <span class="icon-menu-box--five"> <span> </span>
-                  <h3>SLIDE 5</h3>
+               <span class="icon-menu-box--five"> </span>
+               <h3>SLIDE 5</h3>
             </div>
          </div>
-
-
-
          <section class="concept" id="concept">
             <div class="container">
                <div class="concept__inner">
@@ -156,7 +144,6 @@
             </div>
          </div>
 
-
          <section class="premier" id="premier">
             <div class="container">
                <div class="premier__inner">
@@ -180,12 +167,35 @@
                         VISION AVTR.
                      </p>
                      <img class="premier__img" src="images/premier-1.jpg" alt="premier-1">
-                     <button class="premier__btn">MORE</button>
+                     <div data-showmore="text" class="text-box  block__more-box">
+                        <div data-showmore-content="0">
+                           <p class="tour__text    tour__text-top">
+                              Пещера у ручья Азас стала знаменитой сравнительно недавно, когда местные
+                              охотники
+                              рассказали о том, что видели в ее окрестностях снежного человека. С тех пор
+                              туристы и местные жители не раз рассказывали о своих встречах со следами йети,
+                              что сделало пещеру посещаемой достопримечательностью.
+                           </p>
+                           <p class="tour__text">
+                              Азасская пещера достойна внимания не только из-за своей мистической репутации.
+                              Она расположена в дикой тайге, в окружении гор, ручьев и живописного леса с
+                              чистейшим воздухом. Зимой внутри вырастают гирлянды из сталактитов и
+                              сталагмитов.
+                              Удобный вход делает пещеру доступной даже для людей без спелеологической
+                              подготовки. Зимой можно добраться до пещеры на снегоходах. Летом по
+                              окрестностям
+                              проводятся пешие туристические походы.
+                           </p>
+                        </div>
+                        <button data-showmore-button class="block__more-btn premier__btn">MORE</button>
+                     </div>
+                     <!-- <button class=" premier__btn">MORE</button> -->
                   </div>
                   <div class="premier__column">
                      <img class="premier__img" src="images/premier-2.jpg" alt="premier-1">
                      <p class="premier__text premier__text-right scroll-item">
-                        «Mercedes-Benz всегда был одним из самых технологичных премиальных брендов. Теперь пришло время
+                        «Mercedes-Benz всегда был одним из самых технологичных премиальных брендов. Теперь пришло
+                        время
                         объединить роскошь и экологичность. Ведь только так мы сможем соответствовать стандартам
                         будущего».
                      </p>
@@ -199,11 +209,10 @@
             </div>
          </div>
 
-
          <div class="video-pikchers">
             <div class="container">
                <img class="video-pikchers__img" src="images/video-play.png" alt="video">
-               <button class="video-pikchers__btn">
+               <div class="video-pikchers__btn">
                   <a class="video-pikchers__link" data-fancybox href="https://www.youtube.com/watch?v=CazVi2PlFew">
                      <svg width="19" height="23" viewBox="0 0 19 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19 11.5L0.25 22.3253L0.25 0.674683L19 11.5Z" fill="#F402A2" />
@@ -212,10 +221,9 @@
                      <span class="video-play">PLAY VIDEO</span>
                   </a>
 
-               </button>
+               </div>
             </div>
          </div>
-
 
          <section class="interior" id="interior">
             <div class="container">
@@ -272,7 +280,6 @@
             </div>
          </section>
 
-
          <div class="frosted-glass-effects">
             <div class="frosted-glass-effects__inner">
                <div class="frosted-container">
@@ -282,9 +289,6 @@
                </div>
             </div>
          </div>
-
-
-
 
          <section class="exterior" id="exterior">
             <div class="container">
@@ -312,7 +316,6 @@
                </div>
             </div>
          </section>
-
 
          <div class="design-slider">
             <div class="swiper design-slider">
@@ -365,7 +368,6 @@
             </div>
          </div>
 
-
          <div class="design-info-box">
             <div class="container">
                <div class="design-info__inner">
@@ -401,13 +403,11 @@
             </div>
          </div>
 
-
          <div class="section-pictures">
             <div class="section-pictures__container">
                <div class="section-pictures__images">AVTR</div>
             </div>
          </div>
-
 
          <div class="tabs__section">
             <div class="container">
@@ -428,21 +428,10 @@
                            <div class="tabs-body">
                               <div class="tabs-body__container">
                                  <div class="tabs-body__text tabs-body__text-one">
-                                    Легкий удобный нож с клинком, имеющим пологие вогнутые линзовидные спуски на две
-                                    трети ширины клинка, образующие тонкое,
-                                    прекрасно режущее лезвие толщиной около 0,6 мм в районе подводов.
-
-                                    Обух клинка со спинкой рукояти имеет одну плавную дугообразную линию. На пяте перед
-                                    рукоятью есть подпальцевый вырез для точных работ.
-
-                                    Необходимо проявлять некоторую осторожность при работе с большими боковыми
-                                    нагрузками на лезвие ножа, ввиду небольшой толщины клинка
-                                    в рабочей части.
-
-                                    Монтаж рукояти накладной плашечный. На навершии рукояти, функцию которого выполняет
-                                    выступающий из под плашек хвостовик,
-                                    имеется отверстие под темляк. Этот нож удобный помощник при работе с продуктами и
-                                    охоте на боровую и водоплавающую дичь.
+                                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
+                                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
+                                    Которое переписали которой живет своего инициал бросил послушавшись свой назад даль
+                                    знаках пустился, подзаголовок пояс большого лучше дорогу океана диких.
                                     <p class="next-text">Далеко-далеко, за словесными горами в стране гласных и
                                        согласных живут рыбные тексты. Вскоре возвращайся толку продолжил семь. Рыбного,
                                        путь большой! За, грустный. Знаках переулка страну путь прямо гор правилами пор
@@ -508,12 +497,26 @@
             </div>
          </div>
 
-
-
          <div class="design-picteres">
             <img class="design-images" src="images/design-pictures.png" alt="картинка">
          </div>
 
+         <div class="tooltip__inner">
+            <div class="tooltip__body">
+               <div class="tooltip-images">
+                  <img class="tooltip-img" src="images/tooltip-bg.png" alt="">
+               </div>
+               <div class="block__tips">
+                  <button data-tippy-content="Подсказка" class="block__tip  tip-1"> <span
+                        data-tooltip="Подсказка. Здесь можно написать любой текст.">+</span>
+                  </button>
+                  <button data-tippy-content="Подсказка" class="block__tip  tip-2"><span
+                        data-tooltip="Подсказка. Здесь можно написать любой текст.">+</span></button>
+                  <button data-tippy-content="Подсказка" class="block__tip  tip-3"><span
+                        data-tooltip="Подсказка. Здесь можно написать любой текст.">+</span></button>
+               </div>
+            </div>
+         </div>
 
          <section class="video" id="video">
             <div class="container">
@@ -524,15 +527,11 @@
                </div>
             </div>
          </section>
-
       </main>
-
-
-
 
       <footer class="footer">
          <div class="container">
-            <nav class="footer-menu   " id="home">
+            <nav class="footer-menu">
                <ul class="footer-menu__list   ">
                   <li class="footer-menu__item">
                      <a data-after="HOME" class="footer-menu__link" href="#home">
@@ -581,7 +580,7 @@
                <ul class="footer-social-list social-list">
                   <li class="social__item">
                      <a class="social__link" href="#">
-<!--                         <img class="social__img" src="images/icons/social-twitter.svg" alt="twitter"> -->
+                        <img class="social__img" src="images/icons/social-google.svg" alt="google">
                      </a>
                   </li>
                   <li class="social__item">
@@ -591,16 +590,14 @@
                   </li>
                   <li class="social__item">
                      <a class="social__link" href="#">
-<!--                         <img class="social__img" src="images/icons/social-facebook.svg" alt="facebook"> -->
+                        <img class="social__img" src="images/icons/social-google.svg" alt="google">
                      </a>
                   </li>
                </ul>
             </div>
          </div>
       </footer>
-
    </div>
-
 
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
